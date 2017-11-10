@@ -1,0 +1,37 @@
+
+body{
+	padding-top: 5em; 
+}
+
+/*svg{
+	width: 33.32%;
+	float: left;
+}*/
+
+.gear-bg,
+.hammer-bg,
+.heart-bg{
+	transition: .3s ease-out;
+}
+/*======================================
+=            GEAR-ENGRANAJE            =
+======================================*/
+.gear-bg:hover{
+	fill: pink;
+}
+/*======================================
+=            HAMMER-MARTILLO            =
+======================================*/
+.hammer-bg{
+	stroke: orange;
+}
+.hammer-bg:hover{
+	fill: purple;
+	stroke-width: 8;
+}
+/*======================================
+=            HEART-ECORAZÓN            =
+======================================*/
+.heart-bg:hover{
+	fill: peru;
+}
